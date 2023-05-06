@@ -65,7 +65,7 @@ async function extrairDadosDoProduto(produtoNome) {
             console.log('\nNão há preço registrado para este produto') // Caso não haja preço registrado no site
         };
         console.log('\nImagem:', imagem);
-        console.log('\nDescrição do produto:', descricao, "\n");
+        console.log('\nDescrição do produto:\n', descricao, "\n");
 
 
         await browser.close();
@@ -74,5 +74,6 @@ async function extrairDadosDoProduto(produtoNome) {
         console.error('Erro: Não foi possível buscar o produto descrito.');
         await browser.close(); // Apresenta erro caso o usuário digite algo que não existe ou demore mais de 15s pra achar
     }
+    console.log("Pesquisa finalizada.\nPara pesquisar mais um produto, digite novamente 'node index.js'.")
 }
 
