@@ -1,10 +1,10 @@
 # Web-Scraper
 
 ## Objetivo: 
-Essa tarefa consiste em desenvolver um web scraper para o site: https://www.netshoes.com.br/. Seu principal objetivo será realizar uma requisição em uma página de um produto, pegar seu HTML e extrair informações desse produto, como: título, preço, imagem e descrição do produto.
+Essa tarefa consiste em desenvolver um web scraper para o site: https://www.netshoes.com.br/. Seu principal objetivo será realizar uma requisição em uma página de um produto, pegar seu HTML e extrair informações desse produto, como: título, preço, imagem e descrição do produto. 
 
 ## Como utilizar:
-Você irá precisar de:
+Você irá precisar do:
 - Google Chrome instalado na máquina [Link para download](https://www.google.com/intl/pt-BR/chrome/); 
 - Node JS instalado na máquina [Link para download](https://nodejs.org/en).
 
